@@ -11,7 +11,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
-	speak: none;
+	/* speak: none; commented out because it is not recognized by vscode-- it is infact a SASS property to prevent the browser from reading this content via screen reader*/
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
